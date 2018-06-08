@@ -22,7 +22,7 @@ A secure TypeScript runtime on V8
   code. Defaults to read-only file system access and no network access.
 	Access between V8 (unprivileged) and Golang (privileged) is only done via
   serialized messages defined in this
-  [protobuf](https://github.com/ry/deno/blob/master/msg.proto), this makes it
+  [protobuf](https://github.com/ry/deno/blob/master/msg.proto). This makes it
   easy to audit.
 	To enable write access explicitly use `--allow-write` and `--allow-net` for
   network access.
@@ -61,7 +61,7 @@ And examples are around here: [testdata/004_set_timeout.ts](https://github.com/r
 
 Roadmap is [here](https://github.com/ry/deno/blob/master/TODO.txt).
 
-Also see this preentation http://tinyclouds.org/jsconf2018.pdf
+Also see this presentation http://tinyclouds.org/jsconf2018.pdf
 
 
 ## Compile instructions
